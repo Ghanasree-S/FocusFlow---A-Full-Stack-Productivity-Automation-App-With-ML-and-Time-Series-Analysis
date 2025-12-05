@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import random
 
 from routers.auth import get_current_user_id
-from database.mongodb import tasks_collection, activity_collection
+from database.mongo import tasks_collection, activity_collection
 
 router = APIRouter()
 

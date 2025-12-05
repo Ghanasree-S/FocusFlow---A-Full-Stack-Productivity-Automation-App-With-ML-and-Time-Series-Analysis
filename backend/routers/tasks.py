@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from typing import Optional
 
 from routers.auth import get_current_user_id
-from database.mongodb import tasks_collection
+from database.mongo import tasks_collection
 
 router = APIRouter()
 

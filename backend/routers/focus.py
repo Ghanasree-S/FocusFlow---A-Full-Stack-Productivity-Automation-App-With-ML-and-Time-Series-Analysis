@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from datetime import datetime
 from bson import ObjectId
 
-from database.mongodb import focus_collection
+from database.mongo import focus_collection
 from routers.auth import get_current_user_id
 from models.focus import FocusStart, FocusEnd
 

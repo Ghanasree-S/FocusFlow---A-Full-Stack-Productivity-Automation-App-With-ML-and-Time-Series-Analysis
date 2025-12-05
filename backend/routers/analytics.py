@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 from bson import ObjectId
 
 from routers.auth import get_current_user_id
-from database.mongodb import activity_collection, tasks_collection
+from database.mongo import activity_collection, tasks_collection
 import random
 
 router = APIRouter()
