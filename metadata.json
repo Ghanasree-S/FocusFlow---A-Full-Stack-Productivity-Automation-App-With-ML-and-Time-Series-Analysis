@@ -1,0 +1,8 @@
+{
+  "name": "FocusFlow",
+  "description": "An intelligent, full-stack productivity management system leveraging ML and Time-Series Analysis to optimize workflow.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
